@@ -155,7 +155,7 @@ spec:
                                     --destination=${image} \
                                     --destination=${gcr_image} \
                                     --no-push=${noPushImage} \
-                                    --cache-repo=egovio/cache/cache
+                                    --cache-repo=velsof/cache/cache
                                   """  
                                   echo "${image} and ${gcr_image} pushed successfully!!"                              
                                 }
@@ -174,7 +174,7 @@ spec:
                                     --snapshotMode=time \
                                     --destination=${image} \
                                     --no-push=${noPushImage} \
-                                    --cache-repo=egovio/cache/cache
+                                    --cache-repo=velsof/cache/cache
                                 """
                                 echo "${image} pushed successfully!"
                                 }                                
